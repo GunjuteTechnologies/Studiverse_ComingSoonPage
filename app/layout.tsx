@@ -14,8 +14,11 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "STUDIVERSE",
+  title: "StudiVerse",
   description: "Your Study Abroad Partner",
+  icons: {
+    icon: '/icon.ico', // Points to the favicon location in the public folder
+  },
 };
 
 export default function RootLayout({
